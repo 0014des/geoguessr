@@ -1,0 +1,84 @@
+html, body {
+  height: 100%; /* 高さ100% */
+  width: 100%;  /* 幅100% */
+  max-width: 1000px; /* 最大幅1000px */
+  min-width: 550px;  /* 最小幅550px */
+  margin:0 auto;      /* 中央寄せ */
+}
+
+#map, #pano{
+  border-style: solid; /* 枠線のスタイルを実線に */
+  border-width: 1px;   /* 枠線の幅を1pxに */
+}
+
+#map {
+  float: left;            /* 左寄せ */
+  height: 40%;            /* 高さ40% */
+  width: 50%;             /* 幅50% */
+  border-top-left-radius: 5px;   /* 左上の角を丸くする */
+  border-bottom-left-radius: 5px; /* 左下の角を丸くする */
+  border-right-width: .5px;     /* 右の枠線の幅を0.5pxに */
+}
+
+#pano {
+  float: left;             /* 左寄せ */
+  height: 40%;             /* 高さ40% */
+  width: 50%;              /* 幅50% */
+  border-top-right-radius: 5px;   /* 右上の角を丸くする */
+  border-bottom-right-radius: 5px; /* 右下の角を丸くする */
+  border-left-width: 0px;        /* 左の枠線の幅を0pxに */
+}
+
+#result{
+  height: 25%;             /* 高さ25% */
+  width: 90%;              /* 幅90% */
+  border-radius: 30px;     /* 角を丸くする */
+  border-style: solid;     /* 枠線のスタイルを実線に */
+  border-width: 1px;       /* 枠線の幅を1pxに */
+}
+
+#location, #distance, #totaldistance{
+    font-size: 20px;       /* フォントサイズ20px */
+    text-align: center;    /* 中央揃え */
+    font-family: Chalkduster, fantasy; /* フォントファミリー */
+}
+
+#location, #distance {
+  display: inline-block; /* インラインブロック要素として表示 */
+  margin-left: 20px;     /* 左マージン20px */
+}
+
+#check, #next{
+  font-size: 15px;       /* フォントサイズ15px */
+  margin-top: 15px;      /* 上マージン15px */
+  margin-bottom: 15px;   /* 下マージン15px */
+  border-radius: 20px;   /* 角を丸くする */
+  width: 200px;          /* 幅200px */
+}
+
+#buttons, #info{
+  text-align: center; /* 中央揃え */
+}
+
+h1{
+  text-align: center; /* 中央揃え */
+  font-family: Chalkduster, fantasy; /* フォントファミリー */
+}
+
+#next{
+  margin-left: 100px; /* 左マージン100px */
+}
+
+#center{
+  text-align: center; /* 中央揃え */
+}
+
+#totaldistance{
+  bottom: 0;   /* 下端に配置 */
+  width: 100%; /* 幅100% */
+}
+
+#round {
+  font-family: Chalkduster, fantasy; /* フォントファミリー */
+  font-size: 15px;                   /* フォントサイズ15px */
+}
